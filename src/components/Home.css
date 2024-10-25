@@ -76,6 +76,8 @@
   object-fit: cover;
   border-radius: 8px;
   align-self: flex-start; /* Aligns the top of the image with the top of the text */
+  max-width: 100%;
+    height: auto;
 }
 
 .book-now-button {
@@ -98,4 +100,6 @@
   object-fit: cover; /* Scale the image to fit the container */
   width: 500px;
   height: 500px;
+  max-width: 100%;
+    height: auto;
 }
