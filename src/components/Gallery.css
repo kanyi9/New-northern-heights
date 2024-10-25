@@ -1,0 +1,25 @@
+.gallery-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .gallery-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .gallery-images img {
+    width: calc(100% / 3 - 10px);
+    height: auto;
+  }
+  
+  .image-hover {
+    transition: transform 0.3s ease;
+  }
+  
+  .image-hover:hover {
+    transform: scale(1.1);
+  }

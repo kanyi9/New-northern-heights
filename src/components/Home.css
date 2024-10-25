@@ -1,0 +1,101 @@
+/* .home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: dimgrey;
+}
+
+.home-content {
+  max-width: 1200px;
+  text-align: center;
+  padding: 20px;
+}
+.home-content p{
+  font-size: 20px;
+}
+
+.text-with-image {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 20px;
+}
+
+.text-with-image p {
+  flex: 1;
+  margin-right: 20px;
+  line-height: 1.6;
+  text-align: left;
+}
+
+.inline-image {
+  width: 200px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 8px;
+} */
+
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: dimgrey;
+}
+
+.home-content {
+  max-width: 1200px;
+  text-align: center;
+  padding: 20px;
+}
+
+.home-content p{
+  font-size: 20px;
+}
+
+
+.text-with-image {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: 20px;
+}
+
+.text-with-image p {
+  width: 50%; /* Controls the width of the paragraph */
+  margin-right: 20px;
+  line-height: 1.6;
+  text-align: left;
+  word-wrap: break-word; /* Ensures wrapping after ~6 words */
+  white-space: normal; /* Ensure normal line breaks */
+}
+
+.inline-image {
+  width: 200px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 8px;
+  align-self: flex-start; /* Aligns the top of the image with the top of the text */
+}
+
+.book-now-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.book-now-button:hover {
+  background-color: #45a049;
+}
+
+.semi-circle-image {
+  border-radius: 50% 50% 0 0; /* Top-left, top-right, bottom-left, bottom-right */
+  object-fit: cover; /* Scale the image to fit the container */
+  width: 500px;
+  height: 500px;
+}

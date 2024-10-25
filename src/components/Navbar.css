@@ -1,0 +1,21 @@
+
+
+.navbar {
+    display: flex;
+  justify-content: flex-end; /* Align the navigation bar to the right */
+  background-color: #f0e0e0; /* Set the background color */
+  padding: 10px; /* Add some padding */
+    /* Add your styles for the navigation bar here */
+  }
+  
+  .nav-links {
+    list-style-type: none; /* Remove the default list style */
+    display: flex; /* Enable Flexbox layout */
+    gap: 1rem; /* Add spacing between the links */
+  }
+  
+  .nav-item {
+    font-weight: bold;
+    /* Add your styles for the navigation items here */
+  }
+  
